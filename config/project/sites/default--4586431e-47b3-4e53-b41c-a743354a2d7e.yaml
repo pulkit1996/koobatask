@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: pulkit
+primary: true
+siteGroup: 405f184d-5f32-4ffc-a423-4517f128f186 # pulkit
+sortOrder: 1

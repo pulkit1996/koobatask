@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 3
+template: generate-ics.twig
+uriParts:
+  - templates/generate-ics
+uriPattern: templates/generate-ics

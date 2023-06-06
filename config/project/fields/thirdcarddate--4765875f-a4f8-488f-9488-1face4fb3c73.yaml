@@ -1,0 +1,19 @@
+columnSuffix: cglzagzh
+contentColumnType: text
+fieldGroup: d05625af-6e58-4187-87a9-9c84beaafe6a # Just Announced
+handle: thirdcarddate
+instructions: null
+name: 'Third Card Date'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

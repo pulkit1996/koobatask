@@ -1,0 +1,1141 @@
+{% extends "index" %} {% block content %}
+
+<body>
+  <main class="main-container">
+    <!-- include "partial-header.html" -->
+    <section
+      class="section section--on-top tabs js-tabs whats-on tabbed-content"
+      id="whatsOn"
+    >
+      <div class="wrapper wrapper--even whats-on__wrapper stagger-children">
+        <div class="wrapper__col stagger-child">
+          <h2 class="h4 whats-on__heading">Shows</h2>
+        </div>
+
+        <div class="wrapper__col"></div>
+
+        <div class="wrapper__col stagger-child">
+          <div class="tabs__nav">
+            <ul class="tabs__list tab-navigation">
+              <li class="tabs__item" data-tab-target="just-announced">
+                <button
+                  class="tabs__link tabs__link--active js-tabs__link js-tabs__link--active"
+                >
+                  Just Announced
+                </button>
+              </li>
+
+              <li class="tabs__item" data-tab-target="upcoming">
+                <button class="tabs__link js-tabs__link">Upcoming</button>
+              </li>
+
+              <li class="tabs__item" data-tab-target="featured">
+                <button class="tabs__link js-tabs__link">Featured</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper wrapper--wide whats-on__wrapper tabs">
+        <div class="tabs__panel" data-tab-id="just-announced">
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a
+                href="/events/paul-heaton-and-jacqui-abbott"
+                class="card-link__image-link"
+              >
+                <picture>
+                  <!-- 400 x 400 -->
+                  <img
+                    src="{{ siteUrl }}static/img/listing/paul-heaton-300x300.png"
+                    alt="{{ entry.firstcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/paul-heaton-and-jacqui-abbott"
+                    >{{ entry.firstcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-01-16">{{ entry.firstcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/paul-heaton-and-jacqui-abbott"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/paul-heaton-and-jacqui-abbott"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a
+                href="/events/james-taylor-his-all-star-band"
+                class="card-link__image-link"
+              >
+                <picture>
+                  <!-- 400 x 400 -->
+                  <img
+                    src="{{ siteUrl }}static/img/listing/JT_300x300.jpg"
+                    alt="{{ entry.secondcardtitle }}"
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/james-taylor-his-all-star-band"
+                    >{{ entry.secondcardtitle }}</a
+                  >
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-01-25">{{ entry.secondcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/james-taylor-his-all-star-band"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/james-taylor-his-all-star-band"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a href="/events/simply-red" class="card-link__image-link">
+                <picture>
+                  <!-- 400 x 400 -->
+                  <img
+                    src="{{ siteUrl }}static/img/listing/Simply-Red-2020-300x300.jpg"
+                    alt="{{ entry.thirdcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a class="card-link__heading-link" href="/events/simply-red"
+                    >{{ entry.thirdcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-02-02">{{ entry.thirdcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/simply-red"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/simply-red"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 450ms">
+            <div class="card-link__image">
+              <a href="/events/abba-orchestral" class="card-link__image-link">
+                <picture>
+                  <!-- 400 x 400 -->
+                  <img
+                    src="{{ siteUrl }}static/img/listing//abba-orchestral-2021-300x300.jpg"
+                    alt="{{ entry.fourthcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/abba-orchestral"
+                    >{{ entry.fourthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-02-12">{{ entry.fourthcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/abba-orchestral"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/abba-orchestral"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 600ms">
+            <div class="card-link__image">
+              <a href="/events/stormzy" class="card-link__image-link">
+                <picture>
+                  <!-- 400 x 400 -->
+                  <img
+                    src="{{ siteUrl }}static/img/listing//stormzy-2020-300x300.jpg"
+                    alt="{{ entry.fifthcardtitle }}"
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a class="card-link__heading-link" href="/events/stormzy"
+                    >{{ entry.fifthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-04-01">{{ entry.fifthcarddate }}</time>
+                  &amp;
+                  <time datetime="2022-04-02"
+                    >{{ entry.fifthcardadditionaldate }}</time
+                  >
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/stormzy"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <span class="inline-ctas__cta text-white">
+                      <i class="icon-sold-out inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Sold Out</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a href="/events/the-war-on-drugs" class="card-link__image-link">
+                <picture>
+                  <!-- 400 x 400 -->
+                  <img
+                    src="{{ siteUrl }}static/img/listing//TWOD_300x300.jpg"
+                    alt="{{ entry.sixthcardtitle }}"
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/the-war-on-drugs"
+                    >{{ entry.sixthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  {{ entry.sixthcardadditionaldetail }}
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list">
+                  <li class="card-link__item">
+                    <span class="card-link__item-title">On Sale</span>
+                    <span class="card-link__item-description"
+                      ><time datetime="2022-04-02T11:30"
+                        >10am {{ entry.fifthcardadditionaldate }}</time
+                      ></span
+                    >
+                  </li>
+                </ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/the-war-on-drugs"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="inline-ctas__cta text-white"
+                      onclick="generateICS()"
+                      download="event.ics"
+                    >
+                      <i class="icon-calendar inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Remind me</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="tabs__panel" data-tab-id="upcoming">
+          <article class="card-link" style="transition-delay: 450ms">
+            <div class="card-link__image">
+              <a href="/events/abba-orchestral" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//abba-orchestral-2021-300x300.jpg"
+                    alt="{{ entry.fourthcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/abba-orchestral"
+                    >{{ entry.fourthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-02-12">{{ entry.fourthcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/abba-orchestral"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/abba-orchestral"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 600ms">
+            <div class="card-link__image">
+              <a href="/events/stormzy" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//stormzy-2020-300x300.jpg"
+                    alt="{{ entry.fifthcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a class="card-link__heading-link" href="/events/stormzy"
+                    >{{ entry.fifthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-04-01">{{ entry.fifthcarddate }}</time>
+                  &amp;
+                  <time datetime="2022-04-02"
+                    >{{ entry.fifthcardadditionaldate }}</time
+                  >
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/stormzy"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <span class="inline-ctas__cta text-white">
+                      <i class="icon-sold-out inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Sold Out</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a href="/events/the-war-on-drugs" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//TWOD_300x300.jpg"
+                    alt="{{ entry.sixthcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/the-war-on-drugs"
+                    >{{ entry.sixthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  {{ entry.sixthcardadditionaldetail }}
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list">
+                  <li class="card-link__item">
+                    <span class="card-link__item-title">On Sale</span>
+                    <span class="card-link__item-description"
+                      ><time datetime="2022-04-02T11:30"
+                        >10am {{ entry.fifthcardadditionaldate }}</time
+                      ></span
+                    >
+                  </li>
+                </ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/the-war-on-drugs"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="inline-ctas__cta text-white"
+                      onclick="generateICS()"
+                      download="event.ics"
+                    >
+                      <i class="icon-calendar inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Remind me</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a
+                href="/events/paul-heaton-and-jacqui-abbott"
+                class="card-link__image-link"
+              >
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//paul-heaton-300x300.png"
+                    alt="{{ entry.firstcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/paul-heaton-and-jacqui-abbott"
+                    >{{ entry.firstcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-01-16">{{ entry.firstcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/paul-heaton-and-jacqui-abbott"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/paul-heaton-and-jacqui-abbott"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a
+                href="/events/james-taylor-his-all-star-band"
+                class="card-link__image-link"
+              >
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//JT_300x300.jpg"
+                    alt="{{ entry.secondcardtitle }}"
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/james-taylor-his-all-star-band"
+                    >{{ entry.secondcardtitle }}</a
+                  >
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-01-25">{{ entry.secondcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/james-taylor-his-all-star-band"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/james-taylor-his-all-star-band"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a href="/events/simply-red" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//Simply-Red-2020-300x300.jpg"
+                    alt="{{ entry.thirdcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a class="card-link__heading-link" href="/events/simply-red"
+                    >{{ entry.thirdcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-02-02">{{ entry.thirdcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/simply-red"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/simply-red"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="tabs__panel" data-tab-id="featured">
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a href="/events/the-war-on-drugs" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//TWOD_300x300.jpg"
+                    alt="{{ entry.sixthcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/the-war-on-drugs"
+                    >{{ entry.sixthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  {{ entry.sixthcardadditionaldetail }}
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list">
+                  <li class="card-link__item">
+                    <span class="card-link__item-title">On Sale</span>
+                    <span class="card-link__item-description"
+                      ><time datetime="2022-04-02T11:30"
+                        >10am {{ entry.fifthcardadditionaldate }}</time
+                      ></span
+                    >
+                  </li>
+                </ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/the-war-on-drugs"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="inline-ctas__cta text-white"
+                      onclick="generateICS()"
+                      download="event.ics"
+                    >
+                      <i class="icon-calendar inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Remind me</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a
+                href="/events/paul-heaton-and-jacqui-abbott"
+                class="card-link__image-link"
+              >
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//paul-heaton-300x300.png"
+                    alt="{{ entry.firstcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/paul-heaton-and-jacqui-abbott"
+                    >{{ entry.firstcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-01-16">{{ entry.firstcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/paul-heaton-and-jacqui-abbott"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/paul-heaton-and-jacqui-abbott"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a
+                href="/events/james-taylor-his-all-star-band"
+                class="card-link__image-link"
+              >
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//JT_300x300.jpg"
+                    alt="{{ entry.secondcardtitle }}"
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/james-taylor-his-all-star-band"
+                    >{{ entry.secondcardtitle }}</a
+                  >
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-01-25">{{ entry.secondcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/james-taylor-his-all-star-band"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/james-taylor-his-all-star-band"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 0s">
+            <div class="card-link__image">
+              <a href="/events/simply-red" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//Simply-Red-2020-300x300.jpg"
+                    alt="{{ entry.thirdcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a class="card-link__heading-link" href="/events/simply-red"
+                    >{{ entry.thirdcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-02-02">{{ entry.thirdcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/simply-red"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/simply-red"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 450ms">
+            <div class="card-link__image">
+              <a href="/events/abba-orchestral" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//abba-orchestral-2021-300x300.jpg"
+                    alt="{{ entry.fourthcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a
+                    class="card-link__heading-link"
+                    href="/events/abba-orchestral"
+                    >{{ entry.fourthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-02-12">{{ entry.fourthcarddate }}</time>
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/abba-orchestral"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <a
+                      href="/events/abba-orchestral"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="inline-ctas__cta text-white"
+                    >
+                      <i class="icon-ticket inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Buy Now</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="card-link" style="transition-delay: 600ms">
+            <div class="card-link__image">
+              <a href="/events/stormzy" class="card-link__image-link">
+                <picture>
+                  <img
+                    src="{{ siteUrl }}static/img/listing//stormzy-2020-300x300.jpg"
+                    alt="{{ entry.fifthcardtitle }} "
+                    class="card-link__image-source"
+                  />
+                </picture>
+              </a>
+            </div>
+
+            <div class="card-link__content">
+              <div class="card-link__titles">
+                <h3 class="h4 card-link__heading">
+                  <a class="card-link__heading-link" href="/events/stormzy"
+                    >{{ entry.fifthcardtitle }}
+                  </a>
+                </h3>
+                <p class="card-link__sub-heading">
+                  <time datetime="2022-04-01">{{ entry.fifthcarddate }}</time>
+                  &amp;
+                  <time datetime="2022-04-02"
+                    >{{ entry.fifthcardadditionaldate }}</time
+                  >
+                </p>
+              </div>
+
+              <div class="card-link__info">
+                <ul class="card-link__list"></ul>
+
+                <div class="card-link__ctas">
+                  <div class="inline-ctas">
+                    <a
+                      href="/events/stormzy"
+                      class="inline-ctas__cta text-pink"
+                    >
+                      <span class="inline-ctas__text">Learn more</span>
+                      <i class="icon-right-arrow inline-ctas__arrow"></i>
+                    </a>
+
+                    <span class="inline-ctas__cta text-white">
+                      <i class="icon-sold-out inline-ctas__icon"></i>
+                      <span class="inline-ctas__text">Sold Out</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="whats-on__footer">
+        <a href="#" class="button">View All Shows</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- All JS actions that are site wide should be in this file -->
+  <script>
+    function generateICS() {
+      // Prepare the ICS content
+      var icsContent =
+        "BEGIN:VCALENDAR\n" +
+        "VERSION:2.0\n" +
+        "PRODID:-//Kooba//Card Task//EN\n" +
+        "BEGIN:VEVENT\n" +
+        "UID:1234567890\n" +
+        "DTSTAMP:" +
+        getCurrentDateTime() +
+        "\n" +
+        "DTSTART:2023-06-05T09:00:00Z\n" + "10am Sat 02 Apr 2022"
+        "SUMMARY:Sample Event\n" + "The War on Drugs"
+        "END:VEVENT\n" +
+        "END:VCALENDAR";
+
+      // Create a Blob from the ICS content
+      var blob = new Blob([icsContent], { type: "text/calendar" });
+
+      // Create a URL object for the Blob
+      var url = URL.createObjectURL(blob);
+
+      // Set the download link and trigger the download
+      var downloadLink = document.createElement("a");
+      downloadLink.href = url;
+      downloadLink.download = "event.ics";
+      downloadLink.click();
+    }
+
+    function getCurrentDateTime() {
+      var now = new Date();
+      var year = now.getUTCFullYear();
+      var month = now.getUTCMonth() + 1; // Months are zero-based
+      var day = now.getUTCDate();
+      var hours = now.getUTCHours();
+      var minutes = now.getUTCMinutes();
+      var seconds = now.getUTCSeconds();
+
+      // Format the date and time in the required format (YYYYMMDDTHHMMSSZ)
+      var formattedDateTime =
+        year +
+        padNumber(month) +
+        padNumber(day) +
+        "T" +
+        padNumber(hours) +
+        padNumber(minutes) +
+        padNumber(seconds) +
+        "Z";
+
+      return formattedDateTime;
+    }
+
+    function padNumber(number) {
+      return number < 10 ? "0" + number : number;
+    }
+  </script>
+  <script src="{{ siteUrl }}static/js/vendors.js" id="vendorsScript"></script>
+  <script src="{{ siteUrl }}static/js/main.js" id="mainScript"></script>
+
+  <script src="{{ siteUrl }}static/js/homepage.js"></script>
+</body>
+
+{% endblock %}

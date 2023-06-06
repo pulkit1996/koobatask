@@ -1,0 +1,19 @@
+columnSuffix: skcqugmy
+contentColumnType: text
+fieldGroup: d05625af-6e58-4187-87a9-9c84beaafe6a # Just Announced
+handle: firstcardtitle
+instructions: 'Title of the First card'
+name: 'First Card Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

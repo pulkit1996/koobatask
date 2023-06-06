@@ -1,0 +1,313 @@
+fieldLayouts:
+  19287707-9ebe-49ab-bd59-bcaf1e1da64d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ebb07775-5930-4cb9-8062-fbf5793335bb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0c7c8107-9c2a-4aae-925c-04448ab14aa6 # First Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d13f9c9-3f4d-4340-8a39-da632ddd4899
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 87566edd-ce8f-42e8-acec-198b347602e4 # First Card Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8f6d6fe-e3b9-49b3-a6c8-db3992825563
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f3569b98-7f45-4aeb-81ce-067847c9164b # First Card Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ce930be-9abd-4c59-8cab-02bde6e45163
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7599a404-87a6-46d6-a8eb-926d6090cc90
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4ec50e7e-5615-4e18-b864-078ad7ea161e # Second Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4806bdf1-32d3-46ca-af0f-10c0a5297065
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c3dc2414-0a13-43b6-9e3f-2f996f484690 # Second Card Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 88838450-01b1-4d5e-ab78-face74ccecae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f4948e2d-b064-4dac-9787-8d16a009cf63 # Second Card Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a99d23e-1a5b-49c6-9f40-8a2752e7ea42
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'second card'
+        uid: 5a78ca3b-381a-46c4-b67c-4d2f2d5628bf
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 626a4cc0-c76a-46ff-9ae9-d4006ac2eceb # Third Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1a4b39ef-bd72-42ae-815b-287a5c97b3f7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4765875f-a4f8-488f-9488-1face4fb3c73 # Third Card Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20e0462e-a55e-42da-8153-e7ad0a12b163
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 13701839-3751-42bf-8bcb-e1acaa5f4335 # Third Card Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b8f6090c-acdc-4a42-986b-6a31fbac6d21
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'third card'
+        uid: 7cef6042-3ca5-46cc-8623-d7a266cd91a2
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a80340e9-f2e6-4045-aba5-c0ade370da94 # Fourth Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85d8a045-fe12-4883-94de-c569a16d0967
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9517bd8b-192e-486c-8402-e3715db79f12 # Fourth Card Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4386e46e-1627-403f-a6d9-d8c3f68ffccd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1bc59b7d-d501-4fbf-9c35-a1bb48debb46 # Fourth Card Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5baa6029-17e2-4cdd-9256-22c0e3c1ad05
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'fourth card'
+        uid: 3e201557-b496-4221-a5ee-05bae20b1b62
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 24f98871-bbe1-40f5-80a8-cb1929dc80f7 # Fifth Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f65292de-cf09-4764-b611-6ac7e13edeb6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 68c22ae7-3a9b-4cee-9dd3-6c097669f79b # Fifth Card Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 542818ef-7a8e-4d22-8788-cb6b1cdec076
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d9897bc4-e5c9-4fea-98cf-83d17418128d # Fifth Card Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 78ba510b-921a-48ab-9d14-771c58e5a37a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 10a81529-9237-4bfe-b209-f2f00c12f7f4 # Fifth Card Additional Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 119b04ac-d7e4-42f9-ac7e-1fa2bcf4193c
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'fifth card'
+        uid: 3d3f56aa-e83b-432d-9f7a-1c586406dcdc
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2839fe32-d8c0-4e3d-a9b3-a9efe1650867 # Sixth Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9f335342-7103-48ff-9708-7545f462e4ee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4b2315da-ee07-4261-8b29-18950d96164a # Sixth Card Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4afe711b-6669-4f8f-8fcc-19696eec6175
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2a36a361-e92c-4919-9891-e7a4de41aa15 # Sixth Card Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 93518725-461d-42cb-9af6-dfb51c7fd28c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8225ce6d-5169-4253-8f58-0d7e19b85e18 # Sixth Card Additional Detail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3948fa53-f8ad-43b0-abe7-96fd8b78cb04
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'sixth card'
+        uid: 86b98c91-e914-4ee3-ae4b-37464fda0c3a
+        userCondition: null
+handle: home
+hasTitleField: true
+name: Home
+section: 9445bdb9-35a5-460c-990b-1d7d4c6ed12a # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

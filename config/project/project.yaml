@@ -1,0 +1,95 @@
+dateModified: 1686017892
+email:
+  fromEmail: pulkitagrawal1996@gmail.com
+  fromName: pulkit
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  fifthcard:
+    hasUrls: true
+    name: fifthcard
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+  firstcard:
+    hasUrls: true
+    name: firstcard
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+  fourthcard:
+    hasUrls: true
+    name: fourthcard
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+  secondcard:
+    hasUrls: true
+    name: secondcard
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+  sixthcard:
+    hasUrls: true
+    name: sixthcard
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+  thirdcard:
+    hasUrls: true
+    name: thirdcard
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0c7c8107-9c2a-4aae-925c-04448ab14aa6: 'First Card Title' # First Card Title
+    0f384c6a-5ad2-428c-bba2-ae385c654a9c: Common # Common
+    1bc59b7d-d501-4fbf-9c35-a1bb48debb46: 'Fourth Card Image' # Fourth Card Image
+    1c39a367-c689-47c7-966d-3114016752a2: firstcard # firstcard
+    2a36a361-e92c-4919-9891-e7a4de41aa15: 'Sixth Card Image' # Sixth Card Image
+    4a6ae8ab-f788-4197-8bab-d5a4d1d8db34: 'Event FIelds' # Event FIelds
+    4b2315da-ee07-4261-8b29-18950d96164a: 'Sixth Card Date' # Sixth Card Date
+    4ec50e7e-5615-4e18-b864-078ad7ea161e: 'Second Card Title' # Second Card Title
+    5a07e743-599e-4bce-9cf0-bac43ddd45c9: secondcard # secondcard
+    6b545417-1cee-4a35-9703-bdd586d22358: thirdcard # thirdcard
+    10a81529-9237-4bfe-b209-f2f00c12f7f4: 'Fifth Card Additional Date' # Fifth Card Additional Date
+    24f98871-bbe1-40f5-80a8-cb1929dc80f7: 'Fifth Card Title' # Fifth Card Title
+    41b83c01-4f17-4bb1-bc1f-30feb755a15d: sixthcard # sixthcard
+    68c22ae7-3a9b-4cee-9dd3-6c097669f79b: 'Fifth Card Date' # Fifth Card Date
+    405f184d-5f32-4ffc-a423-4517f128f186: pulkit # pulkit
+    626a4cc0-c76a-46ff-9ae9-d4006ac2eceb: 'Third Card Title' # Third Card Title
+    744bf257-80f8-40da-bdce-f68eb90c4c0a: fourthcard # fourthcard
+    2839fe32-d8c0-4e3d-a9b3-a9efe1650867: 'Sixth Card Title' # Sixth Card Title
+    8225ce6d-5169-4253-8f58-0d7e19b85e18: 'Sixth Card Additional Detail' # Sixth Card Additional Detail
+    9445bdb9-35a5-460c-990b-1d7d4c6ed12a: Home # Home
+    9517bd8b-192e-486c-8402-e3715db79f12: 'Fourth Card Date' # Fourth Card Date
+    87566edd-ce8f-42e8-acec-198b347602e4: 'First Card Date' # First Card Date
+    4586431e-47b3-4e53-b41c-a743354a2d7e: pulkit # pulkit
+    4765875f-a4f8-488f-9488-1face4fb3c73: 'Third Card Date' # Third Card Date
+    13701839-3751-42bf-8bcb-e1acaa5f4335: 'Third Card Image' # Third Card Image
+    a80340e9-f2e6-4045-aba5-c0ade370da94: 'Fourth Card Title' # Fourth Card Title
+    c3dc2414-0a13-43b6-9e3f-2f996f484690: 'Second Card Date' # Second Card Date
+    d05625af-6e58-4187-87a9-9c84beaafe6a: 'Just Announced' # Just Announced
+    d9897bc4-e5c9-4fea-98cf-83d17418128d: 'Fifth Card Image' # Fifth Card Image
+    eb62dd51-c784-4b13-9000-caac0390de5e: fifthcard # fifthcard
+    f1f4a3b3-cdee-4d08-a0b4-57247461ed34: Home # Home
+    f3569b98-7f45-4aeb-81ce-067847c9164b: 'First Card Image' # First Card Image
+    f4948e2d-b064-4dac-9787-8d16a009cf63: 'Second Card Image' # Second Card Image
+system:
+  edition: solo
+  live: true
+  name: pulkit
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
